@@ -7,9 +7,10 @@ const Signup = () => {
     <div className='Box'>
         <div className='heading'>
             <h1>SignUp</h1>
-            <div className='Input1'>
+            <form action="#">
+            
             <label>Email:</label>
-            <input type="text" placeholder='Enter your Email' id='ipt2'/>
+            <input type="email" placeholder='Enter your Email' id='ipt2' required/>
             <br/>
             <br/>
             <label>Password:</label>
@@ -21,10 +22,11 @@ const Signup = () => {
             <br/>
             <br/>
             
-            <button id='btn1'>Submit</button>
+            <input id='btn1' type="submit" value="SignUp"/>
             <br/>
             <br/>
-            </div>
+            
+            </form>
         </div>
     </div>
   )

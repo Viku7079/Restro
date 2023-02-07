@@ -8,17 +8,27 @@ h1{
 }
 
 .Box{
-    position: absolute;
-    margin-top: 22%;
-    left: 39%;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
-#btn1{
+.heading{
+    width: auto;
+    height: auto;
+    padding: 2%;
+    border: 2px solid black;
     position: absolute;
-    left: 147px;
-    width: 77px;
-    background-color:rgba(8, 123, 237, 0.98)
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
-#ipt2{
-    position: absolute;
-    left: 148px; 
+input[type=text],
+input[type=email],
+input[type=password]{
+    float: right;
+}
+input[type=submit]{
+    margin-left: 50%;
+    background-color:rgba(8, 123, 237, 0.98);
 }

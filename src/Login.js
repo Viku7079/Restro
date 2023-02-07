@@ -1,34 +1,31 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import "./Login.css"
 
 
 const Login = () => {
   return (
-    <div className='wrapper'>
-        <div className='wrapper2'>
-    <div className='Login'>
+    <div className='Box'>
         <div className='heading'>
-        <h1>Login</h1>
-        <div className='Input'>
+            <h1>Login</h1>
+            <form action="#">
+            
             <label>Email:</label>
-            <input type="text" placeholder='Enter your Email' id='input'/>
+            <input type="email" placeholder='Enter your Email' id='ipt2' required/>
             <br/>
             <br/>
             <label>Password:</label>
-            <input type="password" placeholder="password" id='ipt'/>
+            <input type="password" placeholder="Password" id='ipt2'/>
             <br/>
             <br/>
-            <button id='btn'>Login</button>
+                        
+            <input id='btn1' type="submit" value="Login"/>
             <br/>
             <br/>
+            <NavLink to="/signup">Create New Account</NavLink>
             
-             <h6>Create new account ?</h6>
-             </div>
+            </form>
         </div>
-        </div>
-        
-        </div>
-        
     </div>
     
   )

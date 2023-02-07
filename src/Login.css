@@ -3,40 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-#input{
-   
-    position: absolute;
-    left: 98px;
-
-}
 h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
-
-}
-.Input{
-    position: absolute;
-    left: 37%;
-}
-#btn{
-    position: absolute;
-    left: 65%;
-    width: 77px;
-    background-color:rgba(8, 123, 237, 0.98)
-}
-#ipt{
-    position: absolute;
-    left: 100px;
+    margin-left: 112px;
 }
 
-p{
+.Box{
+    width: 100vw;
+    height: 100vh;
     position: relative;
-    left: 160px;
 }
- h6{
-    position: relative;
-    left: 160px;
+.heading{
+    width: auto;
+    height: auto;
+    padding: 2%;
+    border: 2px solid black;
+    position: absolute;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+input[type=email],
+input[type=password]{
+    float: right;
+}
+input[type=submit]{
+    margin-left: 50%;
+    background-color:rgba(8, 123, 237, 0.98);
+}
+a{
+    text-decoration: none;
+    float: right;
+
 }
