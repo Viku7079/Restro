@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin-left: 112px;
+}
+
+.Box{
+    position: absolute;
+    margin-top: 22%;
+    left: 39%;
+}
+#btn1{
+    position: absolute;
+    left: 147px;
+    width: 77px;
+    background-color:rgba(8, 123, 237, 0.98)
+}
+#ipt2{
+    position: absolute;
+    left: 148px; 
+}
